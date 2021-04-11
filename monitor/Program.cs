@@ -9,13 +9,14 @@ namespace monitor
         static string procName;
         static int ttWork;
         private static Timer aTimer;
+
         static void Main(string[] args)
         {          
 
             if (args.Length != 3)
             {
-                Console.WriteLine("Введите название процесса, время работы и время обновления!");
-                Console.ReadKey();
+                Console.WriteLine("Введите название процесса, время работы и время обновления в минутах!");
+                return;
             }
 
             procName = args[0];
