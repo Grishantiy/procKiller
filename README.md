@@ -1,9 +1,9 @@
 # procKiller
- Kill the  process by timeout
+  Kill the  process by timeout
  
- ## Запуск программы
- Программа запускается <br> 
- `monitor.exe notepad 5 1`<br>
-  notepad - отслеживаемая программа<br>
-  5 мин- время работы программы<br>
-  1 мин - время проверки процессов
+## Run the program
+   The program starts
+   `monitor.exe notepad 5 1`
+   notepad - monitored program
+   5 min - program running time
+   1 min - time for checking processes 
